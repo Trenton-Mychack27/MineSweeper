@@ -1,9 +1,12 @@
-#game-container .board .square{
-    display: flex;
-    grid-template-columns: repeat(3, 1fr);
+h1 {
+    text-align: center;
 }
-#headerW{
-    display: flex;
-    justify-content: flex-end;
-    margin-left: 50px;
+.board {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+    justify-content: center;
+}
+.myButton {
+    color: rebeccapurple;
 }
