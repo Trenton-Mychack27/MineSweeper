@@ -1,0 +1,9 @@
+#game-container .board .square{
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+}
+#headerW{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 50px;
+}
